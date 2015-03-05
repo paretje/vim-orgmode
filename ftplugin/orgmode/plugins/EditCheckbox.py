@@ -104,7 +104,7 @@ class EditCheckbox(object):
 			level = c.level
 
 			if below:
-				start = c.end_of_last_child
+				start = c.end_of_last_child_check
 			else:
 				start = c.start
 		nc.level = level
